@@ -1,0 +1,8 @@
+package lm;  
+  
+message User {  
+    required int32 id = 1; // Ö÷¼ü,Î¨Ò»  
+    required string username = 2; // ÕÊºÅ  
+    required string password = 3; // ÃÜÂë  
+    optional string email = 4; // ÓÊÏä(¿ÉÑ¡)  
+}  
